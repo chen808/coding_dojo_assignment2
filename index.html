@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Favorite Marvel Movie</title>
+	<meta name="favorite marvel movie" content="description and survey on favorite marvel movie" />
+</head>
+
+<body>
+	<h1>What was your favorite Marvel Movie?</h1>
+	<!-- images go here -->
+	<img src="images/image1.jpg" alt="avenger movie" />
+	<img src="images/image2.jpg" alt="guardian movie" />
+	<img src="images/image3.jpg" alt="antman movie" />
+
+	<!-- start contents here -->
+	<p>Bacon ipsum dolor amet ham hock ribeye capicola tail. Fatback ribeye ham, tenderloin sausage prosciutto bresaola hamburger andouille ball tip leberkas. <span>Salami</span> ground round landjaeger, pig turducken kielbasa corned beef rump. Kielbasa spare ribs pork chop, cow pork jerky pig strip steak.</p>
+
+	<!-- links to website -->
+	<ul>
+		<li>Want more Avenger facts? Check this <a href="http://www.imdb.com/title/tt2395427/">site</a></li>
+		<li>Want more Guardians facts? Check this <a href="http://www.imdb.com/title/tt2015381/">site</a></li>
+		<li>Want more Ant-Man facts? Check this <a href="http://www.imdb.com/title/tt0478970/?ref_=nv_sr_1">site</a></li>
+	</ul>
+
+	<!-- table here -->
+	<table>
+		<thead>
+			<tr>
+				<th width="100"></th>
+				<th width="100" align=left>Avengers</th>
+				<th width="100" align=left>Guardians</th>
+				<th width="100" align=left>Ant-Man</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<th>Ratings</th>
+				<td>8.5</td>
+				<td>9.5</td>
+				<td>8.0</td>
+			</tr>
+		</tbody>
+	</table>
+
+	<!-- closing contents here -->
+	<p>Bacon ipsum dolor amet ham hock ribeye capicola tail. Fatback ribeye ham, tenderloin sausage prosciutto bresaola hamburger andouille ball tip leberkas. <span>Salami</span> ground round landjaeger, pig turducken kielbasa corned beef rump. Kielbasa spare ribs pork chop, cow pork jerky pig strip steak.</p>
+
+
+	<!-- survey form starts here -->
+	<form>
+		<!-- user name -->
+		<label>Your Name:<input type="text" name="name"></label>
+
+		<!-- user favorite marvel movie -->
+		<p>What was your favorite movie?</p>
+		<label><input type="radio" name="fave movie" value="avengers" checked="checked">The Avengers</label>
+		<label><input type="radio" name="fave movie" value="guardians">Guardians of the Galaxy</label>
+		<label><input type="radio" name="fave movie" value="ant-man">Ant-Man</label>
+
+		<!-- user's reason -->
+		<p>Care to share why that was your favorite? (optional)</p>
+		<label><textarea name="comments"></textarea></label>
+
+		<!-- user's rating for favorite movie -->
+		<p>Please select a rating for your favorite movie:</p>
+		<label><input type="checkbox" name="number" value="1">1</label>
+		<label><input type="checkbox" name="number" value="2">2</label>
+		<label><input type="checkbox" name="number" value="3">3</label>
+		<label><input type="checkbox" name="number" value="4">4</label>
+		<label><input type="checkbox" name="number" value="5" checked="checked">5</label>
+
+		<!-- user's choice for next marvel movie to watch -->
+		<p>Which upcoming Marvel movie are you most excited for?</p>
+		<select>
+			<option value="Captain America">Captain America: Civil War</option>
+			<option value="Doctor Strange">Doctor Strange</option>
+			<option value="Black Panther">Black Panther</option>
+		</select>
+
+		<!-- submit form -->
+		<input type="submit" value="Submit!">
+	</form> <!-- end form -->
+
+
+</body>
+
+
+
+</html>
